@@ -44,10 +44,10 @@ def get_base64(path):
             return base64.b64encode(f.read()).decode()
     return ""
 
-bg_base64 = get_base64("素材.png")
-card_back_base64 = get_base64("塔罗牌背景.png")
-cat_head = get_base64("小猫头像.png")
-user_head = get_base64("用户头像.png")
+bg_base64 = get_base64("素材.jpeg")
+card_back_base64 = get_base64("塔罗牌背景.jpeg")
+cat_head = get_base64("小猫头像.jpeg")
+user_head = get_base64("用户头像.jpeg")
 
 # ==========================================
 # 2. 魔法 CSS 注入
